@@ -28,8 +28,6 @@ let fileDepth =
 		: ".";
 // Check if the false cards are removed (later)
 let cardsRemoved = false
-// Request the game json file
-let gameDataRequest = new Request(fileDepth + "/gamedata.json");
 // Declares gameDataObject (for later use)
 let gameDataObj;
 
